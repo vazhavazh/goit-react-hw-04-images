@@ -91,7 +91,6 @@ export const App = () => {
           <SearchBar onSubmit={handleSubmit} />
           {hasImages ? (
             <ImageGallery
-              images={images}
               onClickImage={setImg}
               toggleModal={toggleModal}
             />
